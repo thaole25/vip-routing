@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VIP</title>
+	<link rel="stylesheet" type="text/css" href="style70.css">	
+
+</head>
+<body>
+	<div id="startScreen">
+		<h1>Routing Game</h1>
+		<input class="inputTxt" id="inputName" type="text" value="Name" />
+		<input class="inputTxt" id="condition" type="text" value="Condition" /> <br> <br>
+		<button id="showTaskBtn" class="btn" onclick="showTask();">Start</button>
+	</div>
+	<div id="task">
+		<button id="tuteBtn" class="btn" onclick="tutorial();">Start Tutorial</button>
+	</div>
+	<div id="tutorial">
+		<button id="startBtn" onclick="startGame();">Start Game</button>
+	</div>
+	<div id="gameCanvas"> 
+		<div id="world"></div>
+		<div id="timer" class="timer"></div>
+		<button id="nextBtn" onclick="nextGame();">Next</button>
+		<button id="finishBtn" onclick="finish();">Finish</button>
+	</div>
+	<script src="maps.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

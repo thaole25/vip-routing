@@ -1,0 +1,105 @@
+.wall {
+    width: 70px;
+    height: 70px;
+    background-image: url('img/wall70.png');
+    display: inline-block;
+}
+.blue {
+    width: 70px;
+    height: 70px;
+    background-image: url('img/blue-house.png');
+    display: inline-block;
+}
+.red {
+    width: 70px;
+    height: 70px;
+    background-image: url('img/red-house.png');
+    display: inline-block;
+}
+.ground {
+    width: 70px;
+    height: 70px;
+    background-image: url('img/bg70.png');
+    display: inline-block;
+}
+.car {
+    width: 70px;
+    height: 70px;
+    background-image: url('img/car.png');
+    display: inline-block;
+}
+
+#task {
+    display: none;
+    text-align: left;
+    font-size: 30px;
+}
+
+#gameCanvas {
+    display: none;
+    text-align: center;
+    line-height: 0px;
+}
+
+#tutorial {
+    display: none;
+}
+
+#startScreen{
+    text-align: center;
+    font-size: 50px;
+}
+
+#world {
+    text-align: center;
+}
+
+#timer{
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.btn {
+    text-align: center;
+    display: 'inline-block';
+    font-size: 36px;
+    cursor: pointer;
+}   
+
+#startBtn {
+    text-align: center;
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+}
+
+#nextBtn {
+    text-align: center;
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    line-height: 26px;
+}
+
+#finishBtn {
+    text-align: center;
+    display: 'inline-block';
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    line-height: 26px;
+}
+
+.inputTxt{
+    font-size: 30px;
+}
